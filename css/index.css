@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+header{
+    background-image: url(../img/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+button{
+    border-radius: 25px;
+    padding: 0.6rem 2.1rem;
+    outline: 0;
+    cursor: pointer;
+}
+
+p, button, a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem;
+}
+
+#menu button{
+    color: hsl(192, 100%, 9%);
+    background-color: #fff;
+    border: thin solid #ccc;
+    font-weight: bold;
+    font-size: 0.6rem; 
+}
+
+.huddle-logo{
+    width: 135px;
+}
+
+.h-content{
+    display: flex;
+    align-items: center;
+    padding: 0 4.5rem;
+}
+
+.h-content .content{
+    padding: 0 2.5rem;
+}
+/* #menu .first .logo{
+    padding-bottom: 10rem;
+   }*/
+
+.h-content .second img{
+    width: 1300px;
+}
+
+.h-content .first h1{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.h-content .first p{
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.6;
+}
+    
+.h-content .first button{
+    background-color: hsl(322,100%,66%);
+    color: #fff;
+    border: 0;
+    font-size: 0.9rem; 
+}
+
+#m-main{
+    padding: 4rem 7rem;
+    
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    border: thin solid #ccc;
+    border-radius: 0.7rem; 
+    margin-bottom: 1.5rem;
+}
+
+.main-content img{
+    width: 415px;
+}
+
+.main-content .item{
+    padding: 2.5rem 1.5rem 2.5rem 5rem;
+}
+ 
+.main-content#middle{
+    flex-direction:row-reverse;
+}
+
+#ready .ready{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: thin solid #ccc;
+    width: 350px;
+    margin: 0 auto;
+    padding: 1.5rem 3.7rem;
+    border-radius: 0.7rem;
+    margin-top: 5rem;
+}
+
+.ready button{
+    background-color: hsl(322,100%,66%);
+    color: #fff;
+    border: 0;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+#f-main{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    padding: 0 7rem;
+    background-color: hsl(192, 100%, 9%);
+    color: #ccc;
+    font-size: 0.8rem;
+}
+
+/* #address .addr-content, #address a{
+    display: flex;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    
+} */
+
+#address .settings{
+    display: flex;
+} 
+
+#address .pad-top{
+    padding-top: 0.5rem;
+}
+
+#address .settings p{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+#f-main .info{
+    display: flex;
+    flex-direction: column;
+}
+
+#f-main .info a,#address a {
+    color: #ccc;
+}
