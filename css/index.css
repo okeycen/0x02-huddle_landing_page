@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6{
     border: 0.1rem solid #f1eeee;
     border-radius: 0.7rem; 
     margin-bottom: 1.5rem;
+    box-shadow: 0 0 6px 1px rgba(138, 136, 136, 0.2);
 }
 
 .main-content img{
@@ -191,6 +192,7 @@ h1, h2, h3, h4, h5, h6{
     left: 35%;
     top: 215%;
     z-index: 1;
+    box-shadow: 0 0 6px 1px rgba(138, 136, 136, 0.2);
 
 }
 
